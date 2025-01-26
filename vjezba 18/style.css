@@ -1,0 +1,14 @@
+body {
+    background-color: #f4f4f4;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.tekst{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aqua;
+    font-size: 48px;
+}
