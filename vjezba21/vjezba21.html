@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responzivna Web Stranica</title>
+    <style>
+        /* Osnovni stilovi */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #222;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 20px;
+        }
+
+        nav a:hover {
+            background-color: #444;
+        }
+
+        .main-content {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        .product {
+            background-color: white;
+            margin: 10px;
+            padding: 20px;
+            width: 250px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .product h3 {
+            color: #333;
+        }
+
+        .product p {
+            color: #777;
+        }
+
+        /* Responzivnost za male ekrane */
+        @media (max-width: 768px) {
+            .product {
+                width: 100%;
+                margin: 10px 0;
+            }
+
+            nav {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Luxury Smartwatches</h1>
+    </header>
+
+    <nav>
+        <a href="#">Homepage</a>
+        <a href="#">Articles</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="main-content">
+        <div class="product">
+            <img src="product1.webp" alt="Product 1">
+            <h3>MARQ Commander</h3>
+            <p>Explore the world with precision</p>
+        </div>
+        <div class="product">
+            <img src="product2.webp" alt="Product 2">
+            <h3>MARQ Athlete</h3>
+            <p>Track your performance like never before</p>
+        </div>
+        <div class="product">
+            <img src="product3.webp" alt="Product 3">
+            <h3>MARQ Commander</h3>
+            <p>Be prepared for any challenge</p>
+        </div>
+    </div>
+
+</body>
+</html>
