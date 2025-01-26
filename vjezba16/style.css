@@ -1,0 +1,40 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.content {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid white;
+}
+
+.text {
+    flex-grow: 1;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.video {
+    margin-top: 10px;
+    padding: 20px;
+}
+
+video {
+    width: 100%;
+    border: 2px solid white;
+}
