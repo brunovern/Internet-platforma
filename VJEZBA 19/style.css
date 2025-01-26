@@ -1,0 +1,21 @@
+p {
+    font-size: 16px;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+#odlomak1 {
+    color: #0000FF;
+}
+
+#odlomak2 {
+    color: rgb(0, 255, 0);
+}
+
+#odlomak3 {
+    color: rgba(255, 0, 0, 0.5);
+}
+
+p:hover {
+    color: rgba(0, 0, 0, 0.8); 
+}
